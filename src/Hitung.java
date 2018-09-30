@@ -21,4 +21,10 @@ public class Hitung {
                 this.diskon = 0;
         }
     }
+
+    public double bayar(){
+        double total;
+        total = harga-(harga*diskon/100);
+        return total;
+    }
 }
